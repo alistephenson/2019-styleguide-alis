@@ -38,6 +38,7 @@ img {
     border-radius: 8px;
     color: white;
     padding: 10px 36px;
+    text-decoration: none; 
     text-align: center;
     display: inline-block;
     font-size: 14px;
