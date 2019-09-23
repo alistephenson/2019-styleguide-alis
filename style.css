@@ -1,39 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin-top: 100px;
 }
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48pt;
 }
-header {
-    background: #333 url(images/header.png) no-repeat center center;
-    background-size: cover;
+img {
+    max-width: 100%;
+}
+
+.home {
+    background: linear-gradient(180deg, #00C5FF 0%, #B4C873 100%) no-repeat;
+    color: #FFF;
+    height: 100vh;
+    margin: 0;
+}
+.home .container {
+    padding-top: 40vh;
     text-align: center;
 }
-header div {
-    background: rgba(0,0,0,0.5);
-    opacity: 0;
+.home p {
+    margin-bottom: 0;
 }
-header:hover div {
-    opacity: 1;
+.home h1 {
+    margin-top: 0;
 }
-section.icons {
-    background: #333;
-    color: #FFFFFF;
+.button {
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 36px;
     text-align: center;
-}
-section.icons div div {
-    width: 24%;
+    text-decoration: none;
     display: inline-block;
-    vertical-align: top;
-}
-section.icons h3,
-section.icons p {
-    opacity: 0;
-}
-section.icons div div:hover h3,
-section.icons div div:hover p {
-    opacity: 1;
+    font-size: 14px;
 }
